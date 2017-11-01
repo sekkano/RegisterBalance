@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Quarters -->
+    <TextView
+        android:id="@+id/quarters_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="@string/quarters_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"/>
+    <TextView
+        android:id="@+id/quarters_quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/quarters_text_view"
+        android:layout_marginLeft="@dimen/margin_left_popup_count_in"
+        android:layout_marginRight="10dp"
+        android:text="@string/currency_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"/>
+
+    <!-- Dimes -->
+    <TextView
+        android:id="@+id/dimes_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quarters_text_view"
+        android:layout_alignRight="@id/quarters_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:text="@string/dimes_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"/>
+    <TextView
+        android:id="@+id/dimes_quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/dimes_text_view"
+        android:layout_alignTop="@id/dimes_text_view"
+        android:layout_marginRight="10dp"
+        android:text="@string/currency_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"
+        android:layout_marginLeft="@dimen/margin_left_popup_count_in"/>
+
+    <!-- Nickles -->
+    <TextView
+        android:id="@+id/nickles_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="@string/nickles_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"
+        android:layout_below="@+id/dimes_text_view"
+        android:layout_toLeftOf="@+id/pennies_quantity_text_view"
+        android:layout_toStartOf="@+id/pennies_quantity_text_view" />
+    <TextView
+        android:id="@+id/nickles_quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nickles_text_view"
+        android:layout_alignTop="@id/nickles_text_view"
+        android:layout_marginRight="10dp"
+        android:text="@string/currency_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"
+        android:layout_marginLeft="@dimen/margin_left_popup_count_in"/>
+
+    <!-- Pennies -->
+    <TextView
+        android:id="@+id/pennies_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nickles_text_view"
+        android:layout_alignRight="@id/quarters_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:text="@string/pennies_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"/>
+    <TextView
+        android:id="@+id/pennies_quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pennies_text_view"
+        android:layout_alignTop="@id/pennies_text_view"
+        android:layout_marginRight="10dp"
+        android:text="@string/currency_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"
+        android:layout_marginLeft="@dimen/margin_left_popup_count_in"/>
+
+
+
+    <!-- Fives -->
+    <TextView
+        android:id="@+id/fives_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pennies_text_view"
+        android:layout_alignRight="@id/quarters_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:text="@string/fives_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"/>
+    <TextView
+        android:id="@+id/fives_quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/fives_text_view"
+        android:layout_alignTop="@id/fives_text_view"
+        android:layout_marginRight="10dp"
+        android:text="@string/currency_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"
+        android:layout_marginLeft="@dimen/margin_left_popup_count_in"/>
+
+    <!-- Tens -->
+    <TextView
+        android:id="@+id/tens_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fives_text_view"
+        android:layout_alignRight="@id/quarters_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:text="@string/tens_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"/>
+    <TextView
+        android:id="@+id/tens_quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tens_text_view"
+        android:layout_alignTop="@id/tens_text_view"
+        android:layout_marginRight="10dp"
+        android:text="@string/currency_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"
+        android:layout_marginLeft="@dimen/margin_left_popup_count_in"/>
+
+    <!-- Twenties -->
+    <TextView
+        android:id="@+id/twenties_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tens_text_view"
+        android:layout_alignRight="@id/quarters_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:text="@string/twenties_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"/>
+    <TextView
+        android:id="@+id/twenties_quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/twenties_text_view"
+        android:layout_alignTop="@id/twenties_text_view"
+        android:layout_marginRight="10dp"
+        android:text="@string/currency_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"
+        android:layout_marginLeft="@dimen/margin_left_popup_count_in" />
+
+    <!-- Total -->
+    <TextView
+        android:id="@+id/total_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/twenties_text_view"
+        android:layout_alignRight="@+id/quarters_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:text="@string/total_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"/>
+    <TextView
+        android:id="@+id/total_quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/total_text_view"
+        android:layout_toRightOf="@id/total_text_view"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="@dimen/margin_left_popup_count_in"
+        android:text="@string/currency_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"/>
+
+    <!-- Ones -->
+    <TextView
+        android:id="@+id/ones_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_text_view"
+        android:layout_alignRight="@id/quarters_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:text="@string/total_ones_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"/>
+    <TextView
+        android:id="@+id/ones_quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ones_text_view"
+        android:layout_alignTop="@id/ones_text_view"
+        android:layout_marginRight="10dp"
+        android:text="@string/currency_text_view"
+        android:textSize="@dimen/text_size_popup_count_in"
+        android:layout_marginLeft="@dimen/margin_left_popup_count_in"/>
+
+    <!-- Dismiss Button -->
+    <Button
+        android:id="@+id/dismiss_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/ones_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/dismiss_button"/>
+
+</RelativeLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.cvtc.android.registerbalance.MainActivity">
+
+    <!-- Quarters -->
+    <TextView
+        android:id="@+id/quarters_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="@string/quarters_text_view"
+        android:textSize="@dimen/text_size_custom" />
+    <EditText
+        android:id="@+id/quarters_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/quarters_text_view"
+        android:layout_alignTop="@+id/quarters_text_view"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:hint="@string/enter_quantity_of_quarters_edit_text" />
+
+    <!-- Dimes -->
+    <TextView
+        android:id="@+id/dimes_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quarters_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:layout_alignRight="@+id/quarters_text_view"
+        android:paddingTop="5dp"
+        android:text="@string/dimes_text_view"
+        android:textSize="@dimen/text_size_custom"/>
+    <EditText
+        android:id="@+id/dimes_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/dimes_text_view"
+        android:layout_below="@+id/quarters_edit_text"
+        android:layout_alignTop="@+id/dimes_text_view"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:hint="@string/enter_quantity_of_dimes_edit_text"/>
+
+    <!-- Nickles -->
+    <TextView
+        android:id="@+id/nickles_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dimes_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:layout_alignRight="@+id/quarters_text_view"
+        android:paddingTop="5dp"
+        android:text="@string/nickles_text_view"
+        android:textSize="@dimen/text_size_custom"/>
+    <EditText
+        android:id="@+id/nickles_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dimes_edit_text"
+        android:layout_toRightOf="@+id/nickles_text_view"
+        android:layout_alignTop="@+id/nickles_text_view"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:hint="@string/enter_quantity_of_nickles_edit_text"/>
+
+    <!-- Pennies -->
+    <TextView
+        android:id="@+id/pennies_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nickles_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:paddingTop="5dp"
+        android:layout_alignRight="@+id/quarters_text_view"
+        android:text="@string/pennies_text_view"
+        android:textSize="@dimen/text_size_custom"/>
+    <EditText
+        android:id="@+id/pennies_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nickles_edit_text"
+        android:layout_toRightOf="@id/pennies_text_view"
+        android:layout_alignTop="@id/pennies_text_view"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:hint="@string/enter_quantity_of_pennies_edit_text"/>
+
+    <!-- Ones -->
+    <TextView
+        android:id="@+id/ones_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pennies_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:paddingTop="5dp"
+        android:layout_alignRight="@+id/quarters_text_view"
+        android:text="@string/ones_text_view"
+        android:textSize="@dimen/text_size_custom"/>
+    <EditText
+        android:id="@+id/ones_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pennies_edit_text"
+        android:layout_toRightOf="@id/ones_text_view"
+        android:layout_alignTop="@id/ones_text_view"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:hint="Enter Quantity of Ones"/>
+
+    <!-- Fives -->
+    <TextView
+        android:id="@+id/fives_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ones_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:paddingTop="5dp"
+        android:layout_alignRight="@+id/quarters_text_view"
+        android:text="@string/fives_text_view"
+        android:textSize="@dimen/text_size_custom" />
+    <EditText
+        android:id="@+id/fives_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ones_text_view"
+        android:layout_alignTop="@id/fives_text_view"
+        android:layout_toRightOf="@+id/fives_text_view"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:hint="@string/enter_quantity_of_fives_edit_text"/>
+
+    <!-- Tens -->
+    <TextView
+        android:id="@+id/tens_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fives_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:paddingTop="5dp"
+        android:layout_alignRight="@+id/quarters_text_view"
+        android:text="@string/tens_text_view"
+        android:textSize="@dimen/text_size_custom"/>
+    <EditText
+        android:id="@+id/tens_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fives_edit_text"
+        android:layout_toRightOf="@id/tens_text_view"
+        android:layout_alignTop="@+id/tens_text_view"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:hint="@string/enter_quantity_of_tens_edit_text"/>
+
+    <!-- Twenties -->
+    <TextView
+        android:id="@+id/twenties_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tens_text_view"
+        android:layout_marginTop="@dimen/margin_top_custom"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_alignRight="@+id/quarters_text_view"
+        android:text="@string/twenties_text_view"
+        android:textSize="@dimen/text_size_custom"/>
+    <EditText
+        android:id="@+id/twenties_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tens_edit_text"
+        android:layout_toRightOf="@+id/twenties_text_view"
+        android:layout_alignTop="@+id/twenties_text_view"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:hint="@string/enter_quantity_of_twenties_edit_text"/>
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/twenties_text_view"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/balance_button" />
+
+
+</RelativeLayout>

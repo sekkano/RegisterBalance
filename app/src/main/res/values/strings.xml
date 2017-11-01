@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Register Balance</string>
+    <string name="quantity_text_view">Quantity</string>
+    <string name="quarters_text_view">Quarters:</string>
+    <string name="dimes_text_view">Dimes:</string>
+    <string name="nickles_text_view">Nickles:</string>
+    <string name="pennies_text_view">Pennies:</string>
+    <string name="ones_text_view">Ones:</string>
+    <string name="fives_text_view">Fives:</string>
+    <string name="tens_text_view">Tens:</string>
+    <string name="twenties_text_view">Twenties:</string>
+    <string name="enter_quantity_of_quarters_edit_text">Enter Quantity of Quarters</string>
+    <string name="enter_quantity_of_dimes_edit_text">Enter Quantity of Dimes</string>
+    <string name="enter_quantity_of_nickles_edit_text">Enter Quantity of Nickles</string>
+    <string name="enter_quantity_of_pennies_edit_text">Enter Quantity of Pennies</string>
+    <string name="enter_quantity_of_fives_edit_text">Enter Quantity of Fives</string>
+    <string name="enter_quantity_of_tens_edit_text">Enter Quantity of Tens</string>
+    <string name="enter_quantity_of_twenties_edit_text">Enter Quantity of Twenties</string>
+    <string name="balance_button">Balance</string>
+    <string name="currency_text_view">$</string>
+    <string name="dismiss_button">Dismiss</string>
+    <string name="total_text_view">Total:</string>
+    <string name="currency_symbol_text_view">$</string>
+    <string name="total_ones_text_view">Total Ones:</string>
+</resources>
